@@ -39,32 +39,32 @@ const Home = () => {
           isHovering ? "photos-visible" : "photos-hidden"
         }`}
       >
-        <div className="transform rotate-[-4deg] bg-black p-1 shadow-md photo-item">
+        <div className="transform rotate-[-4deg] bg-black p-0.5 sm:p-1 shadow-md photo-item w-12 h-14 sm:w-16 sm:h-18 md:w-20 md:h-20">
           <img
             src={Polaroid1}
             alt="Polaroid 1"
-            className="w-20 h-20 object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
-        <div className="transform rotate-[2deg] bg-black p-1 shadow-md photo-item">
+        <div className="transform rotate-[2deg] bg-black p-0.5 sm:p-1 shadow-md photo-item w-12 h-14 sm:w-16 sm:h-18 md:w-20 md:h-20">
           <img
             src={Polaroid2}
             alt="Polaroid 2"
-            className="w-20 h-20 object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
-        <div className="transform rotate-[-2deg] bg-black p-1 shadow-md photo-item">
+        <div className="transform rotate-[-2deg] bg-black p-0.5 sm:p-1 shadow-md photo-item w-12 h-14 sm:w-16 sm:h-18 md:w-20 md:h-20">
           <img
             src={Polaroid3}
             alt="Polaroid 3"
-            className="w-20 h-20 object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
-        <div className="transform rotate-[4deg] bg-black p-1 shadow-md photo-item">
+        <div className="transform rotate-[4deg] bg-black p-0.5 sm:p-1 shadow-md photo-item w-12 h-14 sm:w-16 sm:h-18 md:w-20 md:h-20">
           <img
             src={Polaroid4}
             alt="Polaroid 4"
-            className="w-20 h-20 object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
       </div>

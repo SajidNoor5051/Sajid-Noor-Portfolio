@@ -7,12 +7,11 @@ const About = () => {
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
     React:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-    "Next.js":
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    Next: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
     Node: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     Express:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-    "Tailwind CSS":
+    Tailwind:
       "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
     Bootstrap:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
@@ -111,11 +110,11 @@ const About = () => {
           <h3 className="text-2xl font-bold mb-6 text-purple-400 text-center">
             Frameworks
           </h3>
-          <div className="grid grid-cols-4 md:grid-cols-5 gap-4 font-bold text-sm">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {Object.entries(skillLogos).map(([skill, logo], index) => (
               <div
                 key={index}
-                className="flex items-center space-x-2 bg-gray-800 py-2 px-4 w-auto rounded-full text-center text-white border border-gray-700 hover:border-purple-400 transition-colors"
+                className="flex items-center space-x-2 bg-gray-800 py-2 px-4 w-auto rounded-full text-center text-white border border-gray-700 hover:border-purple-400 transition-colors text-sm truncate"
               >
                 <img src={logo} alt={skill} className="w-6 h-6" />
                 <span>{skill}</span>
