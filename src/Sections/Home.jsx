@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from "react";
+import Polaroid1 from "../Images/polaroid1.jpg";
+import Polaroid2 from "../Images/polaroid2.jpg";
+import Polaroid3 from "../Images/polaroid3.jpg";
+import Polaroid4 from "../Images/polaroid4.jpg";
 
 const Home = () => {
   const [isHovering, setIsHovering] = useState(false);
@@ -35,40 +39,37 @@ const Home = () => {
           isHovering ? "photos-visible" : "photos-hidden"
         }`}
       >
-        <div className="transform rotate-[-4deg] bg-white p-1 shadow-md photo-item">
+        <div className="transform rotate-[-4deg] bg-black p-1 shadow-md photo-item">
           <img
-            src="/images/polaroid1.jpg"
+            src={Polaroid1}
             alt="Polaroid 1"
             className="w-20 h-20 object-cover"
           />
         </div>
-        <div className="transform rotate-[2deg] bg-white p-1 shadow-md photo-item">
+        <div className="transform rotate-[2deg] bg-black p-1 shadow-md photo-item">
           <img
-            src="/images/polaroid2.jpg"
+            src={Polaroid2}
             alt="Polaroid 2"
             className="w-20 h-20 object-cover"
           />
         </div>
-        <div className="transform rotate-[-2deg] bg-white p-1 shadow-md photo-item">
+        <div className="transform rotate-[-2deg] bg-black p-1 shadow-md photo-item">
           <img
-            src="/images/polaroid3.jpg"
+            src={Polaroid3}
             alt="Polaroid 3"
             className="w-20 h-20 object-cover"
           />
         </div>
-        <div className="transform rotate-[4deg] bg-white p-1 shadow-md photo-item">
+        <div className="transform rotate-[4deg] bg-black p-1 shadow-md photo-item">
           <img
-            src="/images/polaroid4.jpg"
+            src={Polaroid4}
             alt="Polaroid 4"
             className="w-20 h-20 object-cover"
           />
         </div>
       </div>
 
-      {/* Content */}
       <div className="project-card flex flex-col items-center text-center z-10 px-4 font-mono">
-        {/* Interactive Headline */}
-
         <div
           className="flex flex-col md:flex-row items-center gap-4 cursor-pointer"
           onMouseEnter={() => setIsHovering(true)}
@@ -83,15 +84,15 @@ const Home = () => {
           onMouseEnter={() => setIsHovering(true)}
           onMouseLeave={() => setIsHovering(false)}
         >
-          <h1 className="text-5xl md:text-5xl font-bold text-gray-200">
+          <h1 className="text-5xl md:text-5xl font-bold text-gray-200 hover:text-white transition-colors">
             I'M SAJID
           </h1>
         </div>
 
         <p className="max-w-2xl mx-auto mt-8 text-white text-lg leading-relaxed hover:text-gray-300 transition-colors">
-          ChatGPT said: I am a passionate learner who loves building projects
-          that solve real-world problems and constantly exploring new
-          technologies, always curious about what’s next!
+          I am a passionate learner who loves building projects that solve
+          real-world problems and constantly exploring new technologies, always
+          curious about what’s next!
         </p>
 
         <div className="flex gap-6 mt-12">

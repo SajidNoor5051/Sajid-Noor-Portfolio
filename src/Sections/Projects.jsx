@@ -40,7 +40,7 @@ const Projects = () => {
       description:
         "You can take a look at this portfolio website as an example project.",
       technologies: ["React", "Tailwind CSS", "JavaScript"],
-      link: "https://github.com/SajidNoor5051/Portfolio-Website",
+      link: "https://github.com/SajidNoor5051/Sajid-Noor-Portfolio",
     },
   ];
 

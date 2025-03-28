@@ -7,10 +7,6 @@ const Contacts = () => {
       className="min-h-screen py-16 relative bg-gradient-to-r from-gray-800 via-gray-900 to-gray-900"
     >
       <div className="project-card container mx-auto px-4 md:px-8 lg:px-16 max-w-6xl font-mono">
-        <h2 className="text-4xl md:text-5xl font-bold text-purple-400 mb-4 text-center">
-          CONTACT ME
-        </h2>
-
         <div className="flex flex-col md:flex-row gap-12 items-center mt-20">
           {/* Left column - Text and social links */}
           <div className="w-full md:w-1/2 text-gray-200">

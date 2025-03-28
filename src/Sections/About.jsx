@@ -109,7 +109,7 @@ const About = () => {
 
         <div className="max-w-4xl mx-auto">
           <h3 className="text-2xl font-bold mb-6 text-purple-400 text-center">
-            Skills
+            Frameworks
           </h3>
           <div className="grid grid-cols-4 md:grid-cols-5 gap-4 font-bold text-sm">
             {Object.entries(skillLogos).map(([skill, logo], index) => (

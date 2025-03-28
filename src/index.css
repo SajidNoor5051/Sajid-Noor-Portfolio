@@ -110,6 +110,37 @@ a[href]:hover, button:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+
+/* For loading screen */
+
+
+@keyframes wave {
+  0%, 100% { 
+    transform: rotate(0deg); 
+  }
+  25% { 
+    transform: rotate(-20deg); 
+  }
+  75% { 
+    transform: rotate(20deg); 
+  }
+}
+
+.waving-arm {
+  animation: wave 1.5s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+/* For the loading progress circle animation - helps make it smoother */
+@keyframes progress-rotate {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(270deg);
+  }
+}
+
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
