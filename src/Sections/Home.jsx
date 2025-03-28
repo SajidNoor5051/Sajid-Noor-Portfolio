@@ -35,7 +35,7 @@ const Home = () => {
       className="min-h-screen flex flex-col justify-center items-center relative bg-gradient-to-r from-gray-800 via-gray-900 to-gray-900"
     >
       <div
-        className={`absolute top-5 left-1/2 transform -translate-x-1/2 flex gap-3 lg:hidden ${
+        className={`absolute  top-6 sm:top-10 md:top-18 left-1/2 transform -translate-x-1/2 flex gap-3 lg:hidden ${
           isHovering ? "photos-visible" : "photos-hidden"
         }`}
       >
