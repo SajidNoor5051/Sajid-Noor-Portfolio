@@ -64,21 +64,21 @@ const About = () => {
           </div>
 
           <div className="w-full md:w-3/4 lg:w-4/5 text-gray-200">
-            <p className="text-lg mb-4 leading-relaxed">
+            <p className="lg:text-lg md:text-sm mb-4 leading-relaxed">
               I am a final-year undergraduate student in <b>Computer Science and Engineering </b>
               at Bangladesh University of Engineering and Technology (BUET), 
               with strong interests in <b>software development, web application development,
               and artificial intelligence</b>. I enjoy building scalable, user-focused solutions
               using modern technologies and clean engineering practices.
             </p>
-            <p className="text-lg mb-4 leading-relaxed">
+            <p className="lg:text-lg md:text-sm mb-4 leading-relaxed">
               My experience includes working with modern web frameworks, <b>full-stack tools</b>, 
               and AI-powered APIs to create responsive, efficient, and maintainable applications.
               I am particularly interested in <b>AI/ML-driven systems, intelligent automation,</b> 
               and <b>integrating machine learning models</b> into real-world software products.
               
             </p>
-            <p className="text-lg leading-relaxed">
+            <p className="lg:text-lg md:text-sm leading-relaxed">
               Outside academics, I believe in keeping things balanced. You’ll usually find me 
               traveling around Bangladesh, playing football, or relaxing with music—especially 
               guitar and other instruments. These interests help me stay creative,

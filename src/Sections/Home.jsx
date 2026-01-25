@@ -89,7 +89,7 @@ const Home = () => {
           </h1>
         </div>
 
-        <p className="max-w-2xl mx-auto mt-8 text-white text-lg leading-relaxed hover:text-gray-300 transition-colors">
+        <p className="max-w-2xl mx-auto mt-8 text-white lg:text-lg md:text-sm leading-relaxed hover:text-gray-300 transition-colors">
           I am a passionate learner who loves building projects that solve
           real-world problems and constantly exploring new technologies, always
           curious about what’s next!
