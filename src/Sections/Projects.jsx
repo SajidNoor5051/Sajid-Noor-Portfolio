@@ -53,8 +53,17 @@ const Projects = () => {
       image: GradesInfoSystemImg,
       link: "https://github.com/SajidNoor5051/UnderGrad-Student-Management",
     },
+    
     {
       id: 4,
+      title: "Car Parking System",
+      description:
+        "A hardware project that uses Arduino,ATMega and RFID to manage car parking.",
+      technologies: ["Arduino", "ATmega32", "RFID"],
+      image: CarParkingProject,
+      link: "https://github.com/SajidNoor5051/Car-Parking-Project",
+    },{
+      id: 5,
       title: "Movie Database",
       description:
         "A comprehensive JavaFX-based movie management system with client-server architecture that allows users to browse, search, add, and track movies with features including revenue analysis, production company information, and multi-criteria movie filtering.",
@@ -62,15 +71,7 @@ const Projects = () => {
       image: null,
       link: "https://github.com/SajidNoor5051/Movie_database",
     },
-    {
-      id: 5,
-      title: "Car Parking System",
-      description:
-        "A hardware project that uses Arduino,ATMega and RFID to manage car parking.",
-      technologies: ["Arduino", "ATmega32", "RFID"],
-      image: CarParkingProject,
-      link: "https://github.com/SajidNoor5051/Car-Parking-Project",
-    },
+
     
   ];
 
