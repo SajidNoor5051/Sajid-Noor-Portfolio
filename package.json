@@ -1,6 +1,6 @@
 {
   "name": "vite-project",
-  "homepage":"https://SajidNoor5051.github.io/Sajid-Noor-Portfolio",
+  "homepage": "https://SajidNoor5051.github.io/Sajid-Noor-Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.15",
+    "ci": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.4.0",

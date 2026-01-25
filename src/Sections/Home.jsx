@@ -95,18 +95,42 @@ const Home = () => {
           curious about what’s next!
         </p>
 
-        <div className="flex gap-6 mt-12">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-12 items-center">
           <a
             href="#projects"
-            className="px-8 py-3 border border-purple-400 rounded-full text-white hover:bg-white hover:text-black transition-colors"
+            className="w-full sm:w-auto px-8 py-3 border border-purple-400 rounded-full text-white hover:bg-white hover:text-black transition-colors text-center"
           >
             View Projects
           </a>
           <a
             href="#about"
-            className="px-8 py-3 border border-purple-400 rounded-full text-white hover:bg-white hover:text-black transition-colors"
+            className="w-full sm:w-auto px-8 py-3 border border-purple-400 rounded-full text-white hover:bg-white hover:text-black transition-colors text-center"
           >
             About Me
+          </a>
+        </div>
+
+        <div className="mt-6">
+          <a
+            href="/Sajid-Noor-Portfolio/Sajid_Noor_Resume_2026.pdf"
+            download
+            className="inline-flex items-center gap-3 px-8 py-3 bg-purple-500 rounded-full text-white hover:bg-purple-600 hover:scale-105 transition-all font-medium shadow-lg"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+              />
+            </svg>
+            Download CV
           </a>
         </div>
       </div>

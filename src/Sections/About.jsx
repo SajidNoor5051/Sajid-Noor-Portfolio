@@ -11,6 +11,9 @@ const About = () => {
     Node: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     Express:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    NestJS:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg",
+
     Tailwind:
       "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
     Bootstrap:
@@ -19,19 +22,22 @@ const About = () => {
     Python:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
     Java: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-    OracleDB:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg",
     SQL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     MongoDB:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     Docker:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-    Kubernetes:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+
     AWS: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
 
     Jenkins:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
+
+    PyTorch:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
+    
+    TensorFlow:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
   };
 
   return (
@@ -59,21 +65,24 @@ const About = () => {
 
           <div className="w-full md:w-3/4 lg:w-4/5 text-gray-200">
             <p className="text-lg mb-4 leading-relaxed">
-              I'm currently in my final year of undergrad degree in Computer
-              Science and Engineering in Bangladesh University of Engineering &
-              Technology.
+              I am a final-year undergraduate student in <b>Computer Science and Engineering </b>
+              at Bangladesh University of Engineering and Technology (BUET), 
+              with strong interests in <b>software development, web application development,
+              and artificial intelligence</b>. I enjoy building scalable, user-focused solutions
+              using modern technologies and clean engineering practices.
             </p>
             <p className="text-lg mb-4 leading-relaxed">
-              I enjoy working with modern frameworks and tools to create
-              responsive, user-friendly applications. My goal is to continuously
-              learn and improve my skills in this ever-evolving field.
+              My experience includes working with modern web frameworks, <b>full-stack tools</b>, 
+              and AI-powered APIs to create responsive, efficient, and maintainable applications.
+              I am particularly interested in <b>AI/ML-driven systems, intelligent automation,</b> 
+              and <b>integrating machine learning models</b> into real-world software products.
+              
             </p>
             <p className="text-lg leading-relaxed">
-              Outside of my academic area, you'll find me exploring new places
-              around my beautiful country, or in football fields (I love playing
-              football), or maybe in my room watching movies or series... :D . I
-              also love playing guitar and learning new musical instruments. So
-              if are into any of these things, feel free to hit me up!
+              Outside academics, I believe in keeping things balanced. You’ll usually find me 
+              traveling around Bangladesh, playing football, or relaxing with music—especially 
+              guitar and other instruments. These interests help me stay creative,
+              curious, and occasionally sane while debugging!
             </p>
           </div>
         </div>
@@ -86,8 +95,8 @@ const About = () => {
             <div className="bg-gray-800 bg-opacity-50 p-5 rounded-lg border border-gray-700 hover:border-purple-400 transition-colors">
               <div className="flex flex-col mb-2">
                 <h4 className="text-lg font-bold text-white">
-                  Undergraduation : Dept of CSE, Bangladesh University of
-                  Engineering & Technology
+                  BSc. : Department of Computer Science & Technology , Bangladesh
+                  University of Engineering & Technology
                 </h4>
                 <span className="text-gray-400">2021 - Present</span>
               </div>
@@ -96,7 +105,7 @@ const About = () => {
             <div className="bg-gray-800 bg-opacity-50 p-5 rounded-lg border border-gray-700 hover:border-purple-400 transition-colors">
               <div className="flex flex-col mb-2">
                 <h4 className="text-lg font-bold text-white">
-                  College: Notre Dame College
+                  HSC: Notre Dame College
                 </h4>
                 <span className="text-gray-400">2018 - 2020</span>
               </div>
