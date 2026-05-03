@@ -78,17 +78,17 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen py-16 relative bg-gradient-to-r from-gray-800 via-gray-900 to-gray-900"
+      className="min-h-screen py-16 relative bg-section-gradient"
     >
       <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-7xl font-mono">
-        <h2 className="text-4xl md:text-5xl font-bold text-purple-400 mb-12 text-center">
+        <h2 className="text-4xl md:text-5xl font-bold text-black mb-12 text-center">
           Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {projects.map((project, index) => (
             <div
               key={project.id}
-              className={`project-card overflow-hidden rounded-lg border border-gray-700 hover:border-purple-400 transition-colors bg-gray-800 bg-opacity-50`}
+              className={`project-card overflow-hidden rounded-lg border border-gray-600 hover:transition-colors bg-sky-100 bg-opacity-50`}
             >
               {/* Image Section */}
               <div className="relative h-56 md:h-72 overflow-hidden">
@@ -102,10 +102,10 @@ const Projects = () => {
 
               {/* Content Section */}
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-white mb-3">
+                <h3 className="text-2xl font-bold text-black mb-3">
                   {project.title}
                 </h3>
-                <p className="text-gray-300 mb-4 leading-relaxed">
+                <p className="text-black-300 mb-4 leading-relaxed">
                   {project.description}
                 </p>
 
@@ -113,7 +113,7 @@ const Projects = () => {
                   {project.technologies.map((tech, i) => (
                     <span
                       key={i}
-                      className="bg-gray-900 text-white text-sm px-3 py-1 rounded-md border border-white border-opacity-10"
+                      className="bg-sky-100 text-black text-sm px-3 py-1 rounded-md border border-gray-800 border-opacity-10"
                     >
                       {tech}
                     </span>
@@ -125,7 +125,7 @@ const Projects = () => {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block py-2 text-white hover:text-purple-400 transition-colors font-medium"
+                    className="inline-block py-2 text-black hover:text-gray-800 font-medium"
                   >
                     View Project -&gt;
                   </a>

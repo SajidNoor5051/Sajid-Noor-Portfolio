@@ -10,10 +10,10 @@ import LoadingScreen from "./Components/LoadingScreen";
 function App() {
   const [loading, setLoading] = useState(true);
   return (
-    <div className="min-h-screen bg-black text-white">
-      {loading && <LoadingScreen onLoadingComplete={() => setLoading(false)} />}
+    <div className="min-h-screen bg-white text-black">
+      {/* {loading && <LoadingScreen onLoadingComplete={() => setLoading(false)} />} */}
 
-      <div className={loading ? "hidden" : ""}>
+      <div >
         <Navbar />
         <Home />
         <About />

@@ -8,55 +8,58 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-gray-900 py-4 px-6  lg:px-12 flex justify-between items-center sticky top-0 z-50 border-b border-gray-800">
-      <div className="flex items-center font-semibold font-mono">
-        <span className="ml-3 text-white text-3xl font-bold">Sajid Noor</span>
+    <nav className="w-full bg-sky-100/90 backdrop-blur-sm py-4 px-6 lg:px-12 flex justify-between items-center sticky top-0 z-50 shadow-md border-b border-sky-200">
+      <div>
+        {/* <span className="ml-3 text-black text-3xl font-bold">Sajid Noor</span> */}
       </div>
 
       <div className="hidden lg:flex items-center space-x-12 font-semibold font-mono">
         <a
           href="#home"
-          className="text-gray-300 hover:text-white transition-colors"
+          className="text-black hover:text-black transition-colors"
         >
           HOME
         </a>
         <a
           href="#about"
-          className="text-gray-300 hover:text-white transition-colors"
+          className="text-black hover:text-black transition-colors"
         >
           ABOUT
         </a>
         <a
           href="#projects"
-          className="text-gray-300 hover:text-white transition-colors"
+          className="text-black hover:text-black transition-colors"
         >
           PROJECTS
         </a>
         <a
           href="#contact"
-          className="text-gray-300 hover:text-white transition-colors"
+          className="text-black hover:text-black transition-colors"
         >
           CONTACT
         </a>
 
-        <a
+        
+      </div>
+      <div className="hidden lg:flex items-center space-x-12 font-semibold font-mono">
+          <a
           href="/Sajid-Noor-Portfolio/Sajid_Noor_Resume_2026.pdf"
           download
-          className="px-6 py-2 bg-purple-500 rounded-full text-white hover:bg-purple-600 transition-colors"
+          className="px-6 py-2 bg-blue-500 rounded-full text-black hover:bg-blue-600 transition-colors"
         >
           Download CV
         </a>
 
         <a
           href="#contact"
-          className="px-6 py-2 border border-purple-400 rounded-full  text-white hover:bg-white hover:text-black transition-colors"
+          className="px-6 py-2 border border-gray-800 rounded-full  text-black hover:bg-sky-100 hover:text-black transition-colors"
         >
           Let's Work Together!
         </a>
       </div>
 
       <div className="lg:hidden">
-        <button onClick={toggleMenu} className="text-white focus:outline-none">
+        <button onClick={toggleMenu} className="text-black focus:outline-none">
           <svg
             className="w-6 h-6"
             fill="none"
@@ -84,12 +87,12 @@ const Navbar = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="lg:hidden fixed top-16 right-0 h-screen w-64 bg-gray-900 z-50 border-r border-gray-800 font-semibold font-mono p-6">
+        <div className="lg:hidden fixed  backdrop-blur shadow-md top-16 right-0 h-screen w-64 bg-sky-100 z-50 border-r border-gray-800 font-semibold font-mono p-6">
           <div className="text-gray-500 mb-6 text-sm tracking-wider">MENU</div>
           <div className="flex flex-col space-y-6">
             <a
               href="#home"
-              className="menu-item flex items-center text-white hover:text-gray-300 transition-colors"
+              className="menu-item flex items-center text-black hover:text-black transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +113,7 @@ const Navbar = () => {
 
             <a
               href="#about"
-              className="menu-item flex items-center text-white hover:text-gray-300 transition-colors"
+              className="menu-item flex items-center text-black hover:text-black transition-colors"
               style={{ animationDelay: "0.1s" }}
             >
               <svg
@@ -132,7 +135,7 @@ const Navbar = () => {
 
             <a
               href="#projects"
-              className="menu-item flex items-center text-white hover:text-gray-300 transition-colors"
+              className="menu-item flex items-center text-black hover:text-black transition-colors"
               style={{ animationDelay: "0.2s" }}
             >
               <svg
@@ -154,7 +157,7 @@ const Navbar = () => {
 
             <a
               href="#contact"
-              className="menu-item flex items-center text-white hover:text-gray-300 transition-colors"
+              className="menu-item flex items-center text-black hover:text-black transition-colors"
               style={{ animationDelay: "0.3s" }}
             >
               <svg
@@ -175,7 +178,7 @@ const Navbar = () => {
             <a
               href="/Sajid-Noor-Portfolio/Sajid_Noor_CV.pdf"
               download
-              className="menu-item flex items-center bg-purple-500 text-white hover:bg-purple-600 transition-colors px-4 py-3 rounded-lg mt-4"
+              className="menu-item flex items-center bg-blue-500 text-black hover:bg-blue-600 transition-colors px-4 py-3 rounded-lg mt-4"
               style={{ animationDelay: "0.4s" }}
             >
               <svg

@@ -3,7 +3,7 @@ import ProfileImage from "../Images/profile.jpg";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 border-t border-gray-800 py-8 font-mono">
+    <footer className="bg-sky-100  py-8 font-mono ">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col items-center">
           <div className="flex items-center mb-6">
@@ -14,31 +14,31 @@ const Footer = () => {
                 className="h-full w-full object-cover"
               />
             </div>
-            <h3 className="text-white text-xl font-bold">Sajid Noor</h3>
+            <h3 className="text-black text-xl font-bold">Sajid Noor</h3>
           </div>
 
           <div className="flex flex-wrap justify-center gap-6 mb-8">
             <a
               href="#home"
-              className="text-gray-400 hover:text-white transition-colors"
+              className="text-black hover:text-black transition-colors"
             >
               HOME
             </a>
             <a
               href="#about"
-              className="text-gray-400 hover:text-white transition-colors"
+              className="text-black hover:text-black transition-colors"
             >
               ABOUT
             </a>
             <a
               href="#projects"
-              className="text-gray-400 hover:text-white transition-colors"
+              className="text-black hover:text-black transition-colors"
             >
               PROJECTS
             </a>
             <a
               href="#contact"
-              className="text-gray-400 hover:text-white transition-colors"
+              className="text-black hover:text-black transition-colors"
             >
               CONTACT
             </a>
@@ -47,12 +47,12 @@ const Footer = () => {
           <div className="flex justify-center gap-4 mb-8">
             <a
               href="mailto:your.email@gmail.com"
-              className="flex items-center justify-center h-10 w-10 bg-gray-800 rounded-full border border-gray-700 hover:border-purple-400 transition-colors"
+              className="flex items-center justify-center h-10 w-10 bg-sky-100 rounded-full border border-gray-700  transition-colors"
               aria-label="Email"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-gray-400"
+                className="h-5 w-5 text-black"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -69,12 +69,12 @@ const Footer = () => {
               href="https://www.linkedin.com/in/sajid-mostafiz-noor-1485b4319/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center h-10 w-10 bg-gray-800 rounded-full border border-gray-700 hover:border-purple-400 transition-colors"
+              className="flex items-center justify-center h-10 w-10 bg-sky-100 rounded-full border border-gray-700  transition-colors"
               aria-label="LinkedIn"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-gray-400"
+                className="h-5 w-5 text-black"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -86,12 +86,12 @@ const Footer = () => {
               href="https://github.com/SajidNoor5051"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center h-10 w-10 bg-gray-800 rounded-full border border-gray-700 hover:border-purple-400 transition-colors"
+              className="flex items-center justify-center h-10 w-10 bg-sky-100 rounded-full border border-gray-700  transition-colors"
               aria-label="GitHub"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-gray-400"
+                className="h-5 w-5 text-black"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >

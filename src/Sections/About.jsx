@@ -43,10 +43,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col justify-center items-center relative bg-gradient-to-r from-gray-800 via-gray-900 to-gray-900"
+      className="min-h-screen flex flex-col justify-center items-center relative bg-section-gradient"
     >
       <div className="project-card container mx-auto px-4 md:px-8 lg:px-16 max-w-5xl font-mono">
-        <h2 className="text-4xl md:text-5xl font-bold text-purple-400 mb-8 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-black mb-8 text-center">
           About Me
         </h2>
 
@@ -63,7 +63,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-3/4 lg:w-4/5 text-gray-200">
+          <div className="w-full md:w-3/4 lg:w-4/5 text-black-200">
             <p className="lg:text-lg md:text-sm mb-4 leading-relaxed">
               I am a final-year undergraduate student in <b>Computer Science and Engineering </b>
               at Bangladesh University of Engineering and Technology (BUET), 
@@ -88,26 +88,26 @@ const About = () => {
         </div>
 
         <div className="mb-12">
-          <h3 className="text-center text-2xl font-bold mb-6 text-purple-400">
+          <h3 className="text-center text-2xl font-bold mb-6 text-black">
             Education
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div className="bg-gray-800 bg-opacity-50 p-5 rounded-lg border border-gray-700 hover:border-purple-400 transition-colors">
+            <div className="bg-sky-100 bg-opacity-50 p-5 rounded-lg border border-gray-700 -400 transition-colors">
               <div className="flex flex-col mb-2">
-                <h4 className="text-lg font-bold text-white">
+                <h4 className="text-lg font-bold text-black">
                   BSc. : Department of Computer Science & Technology , Bangladesh
                   University of Engineering & Technology
                 </h4>
-                <span className="text-gray-400">2021 - Present</span>
+                <span className="text-black-400">2021 - Present</span>
               </div>
             </div>
 
-            <div className="bg-gray-800 bg-opacity-50 p-5 rounded-lg border border-gray-700 hover:border-purple-400 transition-colors">
+            <div className="bg-sky-100 bg-opacity-50 p-5 rounded-lg border border-gray-700 -400 transition-colors">
               <div className="flex flex-col mb-2">
-                <h4 className="text-lg font-bold text-white">
-                  HSC: Notre Dame College
+                <h4 className="text-lg font-bold text-black">
+                  HSC: Notre Dame College, Dhaka, Bangladesh
                 </h4>
-                <span className="text-gray-400">2018 - 2020</span>
+                <span className="text-black-400">2018 - 2020</span>
               </div>
             </div>
           </div>
@@ -116,14 +116,14 @@ const About = () => {
         {/* Skills */}
 
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold mb-6 text-purple-400 text-center">
+          <h3 className="text-2xl font-bold mb-6 text-black text-center">
             Frameworks
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {Object.entries(skillLogos).map(([skill, logo], index) => (
               <div
                 key={index}
-                className="flex items-center space-x-2 bg-gray-800 py-2 px-4 w-auto rounded-full text-center text-white border border-gray-700 hover:border-purple-400 transition-colors text-sm truncate"
+                className="flex items-center space-x-2 bg-sky-100 py-2 px-4 w-auto rounded-full text-center text-black border border-gray-700 -400 transition-colors text-sm truncate"
               >
                 <img src={logo} alt={skill} className="w-6 h-6" />
                 <span>{skill}</span>

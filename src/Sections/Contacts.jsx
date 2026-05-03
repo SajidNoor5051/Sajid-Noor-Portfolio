@@ -4,13 +4,13 @@ const Contacts = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen py-16 relative bg-gradient-to-r from-gray-800 via-gray-900 to-gray-900"
+      className="min-h-screen py-16 relative bg-gradient-to-r bg-section-gradient"
     >
       <div className="project-card container mx-auto px-4 md:px-8 lg:px-16 max-w-6xl font-mono">
         <div className="flex flex-col md:flex-row gap-12 items-center mt-20">
           {/* Left column - Text and social links */}
-          <div className="w-full md:w-1/2 text-gray-200">
-            <h3 className="text-2xl md:text-4xl font-bold text-blue-400 mb-12">
+          <div className="w-full md:w-1/2 text-black">
+            <h3 className="text-2xl md:text-4xl font-bold text-black mb-12">
               GET IN TOUCH!
             </h3>
             <p className="text-lg mb-8 leading-relaxed">
@@ -23,13 +23,13 @@ const Contacts = () => {
               <div className="flex flex-wrap justify-center md:justify-start gap-6">
                 <a
                   href="mailto:sajidmostafiznoor@gmail.com"
-                  className="flex items-center justify-center h-14 w-14 bg-gray-800 rounded-full border border-gray-700 hover:border-purple-400 transition-colors"
+                  className="flex items-center justify-center h-14 w-14 bg-sky-100 rounded-full border border-gray-700 transition-colors"
                   aria-label="Email"
                   title="Email"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-purple-400"
+                    className="h-6 w-6 text-black"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -47,13 +47,13 @@ const Contacts = () => {
                   href="https://www.linkedin.com/in/sajid-mostafiz-noor-1485b4319/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center h-14 w-14 bg-gray-800 rounded-full border border-gray-700 hover:border-purple-400 transition-colors"
+                  className="flex items-center justify-center h-14 w-14 bg-sky-100 rounded-full border border-gray-700  transition-colors"
                   aria-label="LinkedIn"
                   title="LinkedIn"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-purple-400"
+                    className="h-6 w-6 text-black"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -66,13 +66,13 @@ const Contacts = () => {
                   href="https://github.com/SajidNoor5051"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center h-14 w-14 bg-gray-800 rounded-full border border-gray-700 hover:border-purple-400 transition-colors"
+                  className="flex items-center justify-center h-14 w-14 bg-sky-100 rounded-full border border-gray-700  transition-colors"
                   aria-label="GitHub"
                   title="GitHub"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-purple-400"
+                    className="h-6 w-6 text-black"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -85,13 +85,13 @@ const Contacts = () => {
                   href="https://www.instagram.com/sajid_mostafiz?igsh=djgwNWNlNHdiZXJs&utm_source=qrr"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center h-14 w-14 bg-gray-800 rounded-full border border-gray-700 hover:border-purple-400 transition-colors"
+                  className="flex items-center justify-center h-14 w-14 bg-sky-100 rounded-full border border-gray-700  transition-colors"
                   aria-label="Instagram"
                   title="Instagram"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-purple-400"
+                    className="h-6 w-6 text-black"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -104,13 +104,13 @@ const Contacts = () => {
                   href="https://www.facebook.com/sajid.mostafiz.noor"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center h-14 w-14 bg-gray-800 rounded-full border border-gray-700 hover:border-purple-400 transition-colors"
+                  className="flex items-center justify-center h-14 w-14 bg-sky-100 rounded-full border border-gray-700  transition-colors"
                   aria-label="Facebook"
                   title="Facebook"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-purple-400"
+                    className="h-6 w-6 text-black"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -124,9 +124,9 @@ const Contacts = () => {
           <div className="w-full md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               {/* You can replace this with an actual image if you have one */}
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-600 to-gray-700 rounded-2xl opacity-80 transform rotate-6"></div>
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-700 to-gray-800 rounded-2xl shadow-xl flex items-center justify-center">
-                <div className="text-purple-400">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-100 to-blue-200 rounded-2xl opacity-80 transform rotate-6"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-gray-200 to-gray-300 rounded-2xl shadow-xl flex items-center justify-center">
+                <div className="text-black">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-32 w-32"

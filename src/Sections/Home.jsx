@@ -32,35 +32,35 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center relative bg-gradient-to-r from-gray-800 via-gray-900 to-gray-900"
+      className="min-h-screen flex flex-col justify-center items-center relative bg-section-gradient"
     >
       <div
         className={`absolute  top-6 sm:top-10 md:top-18 left-1/2 transform -translate-x-1/2 flex gap-3 lg:hidden ${
           isHovering ? "photos-visible" : "photos-hidden"
         }`}
       >
-        <div className="transform rotate-[-4deg] bg-black p-0.5 sm:p-1 shadow-md photo-item w-12 h-14 sm:w-16 sm:h-18 md:w-20 md:h-20">
+        <div className="transform rotate-[-4deg] bg-white p-0.5 sm:p-1 shadow-md photo-item w-12 h-14 sm:w-16 sm:h-18 md:w-20 md:h-20">
           <img
             src={Polaroid1}
             alt="Polaroid 1"
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="transform rotate-[2deg] bg-black p-0.5 sm:p-1 shadow-md photo-item w-12 h-14 sm:w-16 sm:h-18 md:w-20 md:h-20">
+        <div className="transform rotate-[2deg] bg-white p-0.5 sm:p-1 shadow-md photo-item w-12 h-14 sm:w-16 sm:h-18 md:w-20 md:h-20">
           <img
             src={Polaroid2}
             alt="Polaroid 2"
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="transform rotate-[-2deg] bg-black p-0.5 sm:p-1 shadow-md photo-item w-12 h-14 sm:w-16 sm:h-18 md:w-20 md:h-20">
+        <div className="transform rotate-[-2deg] bg-white p-0.5 sm:p-1 shadow-md photo-item w-12 h-14 sm:w-16 sm:h-18 md:w-20 md:h-20">
           <img
             src={Polaroid3}
             alt="Polaroid 3"
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="transform rotate-[4deg] bg-black p-0.5 sm:p-1 shadow-md photo-item w-12 h-14 sm:w-16 sm:h-18 md:w-20 md:h-20">
+        <div className="transform rotate-[4deg] bg-white p-0.5 sm:p-1 shadow-md photo-item w-12 h-14 sm:w-16 sm:h-18 md:w-20 md:h-20">
           <img
             src={Polaroid4}
             alt="Polaroid 4"
@@ -75,7 +75,7 @@ const Home = () => {
           onMouseEnter={() => setIsHovering(true)}
           onMouseLeave={() => setIsHovering(false)}
         >
-          <h1 className="text-5xl md:text-7xl font-bold text-purple-400 hover:text-purple-500 transition-colors">
+          <h1 className="text-5xl md:text-7xl font-bold text-black hover:text-black transition-colors">
             HELLO THERE!
           </h1>
         </div>
@@ -84,12 +84,12 @@ const Home = () => {
           onMouseEnter={() => setIsHovering(true)}
           onMouseLeave={() => setIsHovering(false)}
         >
-          <h1 className="text-5xl md:text-5xl font-bold text-gray-200 hover:text-white transition-colors">
+          <h1 className="text-5xl md:text-5xl font-bold text-black-200 transition-colors">
             I'M SAJID
           </h1>
         </div>
 
-        <p className="max-w-2xl mx-auto mt-8 text-white lg:text-lg md:text-sm leading-relaxed hover:text-gray-300 transition-colors">
+        <p className="max-w-2xl mx-auto mt-8 text-black lg:text-lg md:text-sm leading-relaxed transition-colors">
           I am a passionate learner who loves building projects that solve
           real-world problems and constantly exploring new technologies, always
           curious about what’s next!
@@ -98,13 +98,13 @@ const Home = () => {
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-12 items-center">
           <a
             href="#projects"
-            className="w-full sm:w-auto px-8 py-3 border border-purple-400 rounded-full text-white hover:bg-white hover:text-black transition-colors text-center"
+            className="w-full sm:w-auto px-8 py-3 border  rounded-full text-black hover:bg-white hover:text-black transition-colors text-center"
           >
             View Projects
           </a>
           <a
             href="#about"
-            className="w-full sm:w-auto px-8 py-3 border border-purple-400 rounded-full text-white hover:bg-white hover:text-black transition-colors text-center"
+            className="w-full sm:w-auto px-8 py-3 border rounded-full text-black hover:bg-white hover:text-black transition-colors text-center"
           >
             About Me
           </a>
@@ -114,7 +114,7 @@ const Home = () => {
           <a
             href="/Sajid-Noor-Portfolio/Sajid_Noor_Resume_2026.pdf"
             download
-            className="inline-flex items-center gap-3 px-8 py-3 bg-purple-500 rounded-full text-white hover:bg-purple-600 hover:scale-105 transition-all font-medium shadow-lg"
+            className="inline-flex items-center gap-3 px-8 py-3 bg-blue-500 rounded-full text-black hover:bg-blue-600 hover:scale-105 transition-all font-medium shadow-lg"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
