@@ -10,10 +10,10 @@ const Contacts = () => {
         <div className="flex flex-col md:flex-row gap-12 items-center mt-20">
           {/* Left column - Text and social links */}
           <div className="w-full md:w-1/2 text-black">
-            <h3 className="text-2xl md:text-4xl font-bold text-black mb-12">
+            <h3 className="text-xl lg:text-2xl font-bold text-black mb-12">
               GET IN TOUCH!
             </h3>
-            <p className="text-lg mb-8 leading-relaxed">
+            <p className="text-lg lg:text-xl mb-8 leading-relaxed">
               I'm always looking for new opportunities to work with like-minded
               businesses and individuals. If you'd like to work together or if
               you have any questions, feel free to reach out!
