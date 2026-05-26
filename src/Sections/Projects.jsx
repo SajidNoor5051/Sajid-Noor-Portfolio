@@ -78,34 +78,34 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen py-16 relative bg-section-gradient"
+      className="min-h-screen py-16 relative bg-portfolio-background"
     >
-      <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-7xl font-mono">
-        <h2 className="text-4xl md:text-5xl font-bold text-black mb-12 text-center">
+      <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-7xl font-style">
+        <h3 className="text-2xl md:text-3xl font-bold text-black mb-12 text-center">
           Projects
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-10 shadow-lg backdrop-blur-sm">
           {projects.map((project, index) => (
             <div
               key={project.id}
-              className={`project-card overflow-hidden rounded-lg border border-gray-600 hover:transition-colors bg-sky-100 bg-opacity-50`}
+              className={`project-card overflow-hidden bg-opacity-50`}
             >
               {/* Image Section */}
               <div className="relative h-56 md:h-72 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover opacity-90"
+                  className="w-full h-full object-cover opacity-100"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 opacity-60"></div>
               </div>
 
               {/* Content Section */}
-              <div className="p-6">
+              <div className="p-6 border-l-4 border-gray-600 bg-div bg-div-background">
                 <h3 className="text-2xl font-bold text-black mb-3">
                   {project.title}
                 </h3>
-                <p className="text-black-300 mb-4 leading-relaxed">
+                <p className="text-lg text-black-300 mb-4 leading-relaxed">
                   {project.description}
                 </p>
 
@@ -113,7 +113,7 @@ const Projects = () => {
                   {project.technologies.map((tech, i) => (
                     <span
                       key={i}
-                      className="bg-sky-100 text-black text-sm px-3 py-1 rounded-md border border-gray-800 border-opacity-10"
+                      className="bg-div-background text-black text-lg px-3 py-1 rounded-md border border-gray-800 border-opacity-10"
                     >
                       {tech}
                     </span>

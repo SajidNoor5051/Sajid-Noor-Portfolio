@@ -40,8 +40,15 @@
     transform: translateY(-20px);
   }
 }
-.bg-section-gradient {
-  @apply bg-gradient-to-r from-sky-100 via-sky-100 to-sky-100;
+.bg-portfolio-background {
+  @apply bg-white;
+}
+.bg-div-background {
+  @apply bg-gray-50;
+}
+.font-style {
+  font-family: 'Roboto Slab', serif;
+  
 }
 /* Photo container visibility classes */
 .photos-visible {

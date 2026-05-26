@@ -4,9 +4,9 @@ const Contacts = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen py-16 relative bg-gradient-to-r bg-section-gradient"
+      className="min-h-screen py-16 relative bg-gradient-to-r bg-portfolio-background"
     >
-      <div className="project-card container mx-auto px-4 md:px-8 lg:px-16 max-w-6xl font-mono">
+      <div className="project-card container mx-auto px-4 md:px-8 lg:px-16 max-w-6xl font-style">
         <div className="flex flex-col md:flex-row gap-12 items-center mt-20">
           {/* Left column - Text and social links */}
           <div className="w-full md:w-1/2 text-black">
@@ -23,7 +23,7 @@ const Contacts = () => {
               <div className="flex flex-wrap justify-center md:justify-start gap-6">
                 <a
                   href="mailto:sajidmostafiznoor@gmail.com"
-                  className="flex items-center justify-center h-14 w-14 bg-sky-100 rounded-full border border-gray-700 transition-colors"
+                  className="flex items-center justify-center h-14 w-14 bg-portfolio-background rounded-full border border-gray-700 transition-colors"
                   aria-label="Email"
                   title="Email"
                 >
@@ -47,7 +47,7 @@ const Contacts = () => {
                   href="https://www.linkedin.com/in/sajid-mostafiz-noor-1485b4319/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center h-14 w-14 bg-sky-100 rounded-full border border-gray-700  transition-colors"
+                  className="flex items-center justify-center h-14 w-14 bg-portfolio-background rounded-full border border-gray-700  transition-colors"
                   aria-label="LinkedIn"
                   title="LinkedIn"
                 >
@@ -66,7 +66,7 @@ const Contacts = () => {
                   href="https://github.com/SajidNoor5051"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center h-14 w-14 bg-sky-100 rounded-full border border-gray-700  transition-colors"
+                  className="flex items-center justify-center h-14 w-14 bg-portfolio-background rounded-full border border-gray-700  transition-colors"
                   aria-label="GitHub"
                   title="GitHub"
                 >
@@ -85,7 +85,7 @@ const Contacts = () => {
                   href="https://www.instagram.com/sajid_mostafiz?igsh=djgwNWNlNHdiZXJs&utm_source=qrr"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center h-14 w-14 bg-sky-100 rounded-full border border-gray-700  transition-colors"
+                  className="flex items-center justify-center h-14 w-14 bg-portfolio-background rounded-full border border-gray-700  transition-colors"
                   aria-label="Instagram"
                   title="Instagram"
                 >
@@ -104,7 +104,7 @@ const Contacts = () => {
                   href="https://www.facebook.com/sajid.mostafiz.noor"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center h-14 w-14 bg-sky-100 rounded-full border border-gray-700  transition-colors"
+                  className="flex items-center justify-center h-14 w-14 bg-portfolio-background rounded-full border border-gray-700  transition-colors"
                   aria-label="Facebook"
                   title="Facebook"
                 >

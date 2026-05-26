@@ -3,7 +3,7 @@ import ProfileImage from "../Images/profile.jpg";
 
 const Footer = () => {
   return (
-    <footer className="bg-sky-100  py-8 font-mono ">
+    <footer className="bg-portfolio-background  py-8 font-style">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col items-center">
           <div className="flex items-center mb-6">
@@ -47,7 +47,7 @@ const Footer = () => {
           <div className="flex justify-center gap-4 mb-8">
             <a
               href="mailto:your.email@gmail.com"
-              className="flex items-center justify-center h-10 w-10 bg-sky-100 rounded-full border border-gray-700  transition-colors"
+              className="flex items-center justify-center h-10 w-10 bg-portfolio-background rounded-full border border-gray-700  transition-colors"
               aria-label="Email"
             >
               <svg
@@ -69,7 +69,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/sajid-mostafiz-noor-1485b4319/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center h-10 w-10 bg-sky-100 rounded-full border border-gray-700  transition-colors"
+              className="flex items-center justify-center h-10 w-10 bg-portfolio-background rounded-full border border-gray-700  transition-colors"
               aria-label="LinkedIn"
             >
               <svg
@@ -86,7 +86,7 @@ const Footer = () => {
               href="https://github.com/SajidNoor5051"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center h-10 w-10 bg-sky-100 rounded-full border border-gray-700  transition-colors"
+              className="flex items-center justify-center h-10 w-10 bg-portfolio-background rounded-full border border-gray-700  transition-colors"
               aria-label="GitHub"
             >
               <svg

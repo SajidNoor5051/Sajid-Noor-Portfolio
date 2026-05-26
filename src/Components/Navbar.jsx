@@ -8,12 +8,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-sky-100/90 backdrop-blur-sm py-4 px-6 lg:px-12 flex justify-between items-center sticky top-0 z-50 shadow-md border-b border-sky-200">
+    <nav className="w-full bg-white/40 backdrop-blur-lg py-4 px-6 lg:px-12 flex justify-between items-center sticky top-0 z-50 shadow-md border-b border-sky-200">
       <div>
         {/* <span className="ml-3 text-black text-3xl font-bold">Sajid Noor</span> */}
       </div>
 
-      <div className="hidden lg:flex items-center space-x-12 font-semibold font-mono">
+      <div className="hidden lg:flex items-center space-x-12 font-semibold font-style">
         <a
           href="#home"
           className="text-black hover:text-black transition-colors"
@@ -41,7 +41,7 @@ const Navbar = () => {
 
         
       </div>
-      <div className="hidden lg:flex items-center space-x-12 font-semibold font-mono">
+      <div className="hidden lg:flex items-center space-x-12 font-semibold font-style">
           <a
           href="/Sajid-Noor-Portfolio/Sajid_Noor_Resume_2026.pdf"
           download
@@ -52,7 +52,7 @@ const Navbar = () => {
 
         <a
           href="#contact"
-          className="px-6 py-2 border border-gray-800 rounded-full  text-black hover:bg-sky-100 hover:text-black transition-colors"
+          className="px-6 py-2 border border-gray-800 rounded-full  text-black hover:bg-portfolio-background hover:text-black transition-colors"
         >
           Let's Work Together!
         </a>
@@ -87,7 +87,7 @@ const Navbar = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="lg:hidden fixed  backdrop-blur shadow-md top-16 right-0 h-screen w-64 bg-sky-100 z-50 border-r border-gray-800 font-semibold font-mono p-6">
+        <div className="lg:hidden fixed  backdrop-blur shadow-md top-16 right-0 h-screen w-64 bg-portfolio-background z-50 border-r border-gray-800 font-semibold font-style p-6">
           <div className="text-gray-500 mb-6 text-sm tracking-wider">MENU</div>
           <div className="flex flex-col space-y-6">
             <a

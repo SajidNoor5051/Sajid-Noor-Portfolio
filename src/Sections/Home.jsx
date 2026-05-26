@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center relative bg-section-gradient"
+      className="min-h-screen flex flex-col justify-center items-center relative bg-portfolio-background"
     >
       <div
         className={`absolute  top-6 sm:top-10 md:top-18 left-1/2 transform -translate-x-1/2 flex gap-3 lg:hidden ${
@@ -69,15 +69,13 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="project-card flex flex-col items-center text-center z-10 px-4 font-mono">
+      <div className="project-card flex flex-col items-center text-center z-10 px-4 font-style">
         <div
           className="flex flex-col md:flex-row items-center gap-4 cursor-pointer"
           onMouseEnter={() => setIsHovering(true)}
           onMouseLeave={() => setIsHovering(false)}
         >
-          <h1 className="text-5xl md:text-7xl font-bold text-black hover:text-black transition-colors">
-            HELLO THERE!
-          </h1>
+          
         </div>
         <div
           className="flex flex-col md:flex-row items-center gap-4 cursor-pointer"
@@ -89,7 +87,7 @@ const Home = () => {
           </h1>
         </div>
 
-        <p className="max-w-2xl mx-auto mt-8 text-black lg:text-lg md:text-sm leading-relaxed transition-colors">
+        <p className="max-w-2xl mx-auto mt-8 text-black text-lg lg:text-xl leading-relaxed transition-colors">
           I am a passionate learner who loves building projects that solve
           real-world problems and constantly exploring new technologies, always
           curious about what’s next!
