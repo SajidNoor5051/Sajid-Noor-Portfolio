@@ -1,22 +1,18 @@
-import { React, useState } from "react";
+import React from "react";
 import Navbar from "./Components/Navbar";
-import Home from "./Sections/Home";
 import About from "./Sections/About";
+import Research from "./Sections/Research";
 import Projects from "./Sections/Projects";
 import Contact from "./Sections/Contacts";
 import Footer from "./Sections/Footer";
-import LoadingScreen from "./Components/LoadingScreen";
 
 function App() {
-  const [loading, setLoading] = useState(true);
   return (
     <div className="min-h-screen bg-white text-black">
-      {/* {loading && <LoadingScreen onLoadingComplete={() => setLoading(false)} />} */}
-
-      <div >
+      <div>
         <Navbar />
-        <Home />
         <About />
+        <Research />
         <Projects />
         <Contact />
         <Footer />
