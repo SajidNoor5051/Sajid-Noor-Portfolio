@@ -68,7 +68,7 @@ const About = () => {
               Sajid Mostafiz Noor
             </h1>
             <p className="text-gray-700 text-sm md:text-base">
-              BSc. Student · Computer Science &amp; Engineering · BUET
+              BSc. Graduate · Computer Science &amp; Engineering · BUET
             </p>
             <div className="mt-4 w-12 h-0.5 bg-blue-400 mx-auto sm:mx-0" />
             <div className="flex flex-wrap justify-center sm:justify-start gap-x-5 gap-y-1 mt-4 text-sm text-gray-500">
@@ -109,17 +109,14 @@ const About = () => {
         <div className="mb-10">
           <SectionHeading>About Me</SectionHeading>
           <p className="text-base text-gray-800 leading-relaxed mb-3">
-            Hello, I am Sajid Noor, a final-year undergraduate student in
-            Computer Science and Engineering at Bangladesh University of
-            Engineering and Technology (BUET). I have strong interests in
-            software development, full-stack web application development, and
-            artificial intelligence. I enjoy building scalable, user-focused
-            solutions using modern technologies and clean engineering practices.
+            Hello, I'm Sajid Mostafiz Noor. I recently completed my Bachelor of Science (BSc.) 
+            in the Department of Computer Science and Engineering at Bangladesh University of
+            Engineering and Technology (BUET). 
+            My research interests lie in the areas of Human-Computer Interaction, Machine Learning and Applied Artificial Intellingence.
           </p>
           <p className="text-base text-gray-800 leading-relaxed">
-            Outside academics, I enjoy traveling around Bangladesh, playing
-            football, and music — particularly guitar. These pursuits help me
-            stay balanced, creative, and occasionally sane while debugging.
+            Outside academics, I enjoy exploring new places, playing
+            football, and occasionally covering songs on guitar.
           </p>
         </div>
 
@@ -130,7 +127,7 @@ const About = () => {
             <EducationItem
               institution="Bangladesh University of Engineering and Technology (BUET)"
               degree="BSc. in Computer Science and Engineering"
-              period="2021 – Present"
+              period="2022 – 2026"
             />
             <EducationItem
               institution="Notre Dame College, Dhaka, Bangladesh"
@@ -140,8 +137,14 @@ const About = () => {
           </div>
         </div>
 
+        
+
+
+        
+
+
         {/* ── Research Interests ── */}
-        <div className="mb-10">
+        {/* <div className="mb-10">
           <SectionHeading>Research Interests</SectionHeading>
           <p className="text-base text-gray-800 leading-relaxed">
             My research interests include artificial intelligence, machine
@@ -150,7 +153,7 @@ const About = () => {
             and the integration of machine learning models into real-world
             software applications.
           </p>
-        </div>
+        </div> */}
 
         {/* ── Technical Skills ── */}
         <div className="mb-4">
