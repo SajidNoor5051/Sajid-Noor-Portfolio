@@ -54,7 +54,7 @@ const Research = () => {
                   Undergraduate Thesis
                 </p>
                 <span className="text-gray-400 text-sm whitespace-nowrap">
-                  2025 – Present
+                  2025 – 2026
                 </span>
               </div>
               <p className="text-sm text-gray-600 mb-2">
@@ -278,7 +278,7 @@ const Research = () => {
                   </p>
 
                   <p className="text-base text-gray-800 leading-relaxed mb-3">
-                    This case study extends our prior UbiComp/ISWC work by
+                    This study extends our prior UbiComp/ISWC work by
                     exploring how physiological heat-stress data, specifically
                     relative cardiac cost (RCC), can be translated into
                     culturally familiar rickshaw art for Dhaka's rickshaw
